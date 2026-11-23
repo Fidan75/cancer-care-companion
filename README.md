@@ -26,18 +26,31 @@ An educational and supportive mobile app prototype designed to help people affec
 
 ### Frontend
 
+Install dependencies and start the application:
+
 ```bash
 npm install
 npx expo start
+```
 
 ### Backend
 
-Install the Python dependencies:
+Navigate to the backend folder:
 
 ```bash
 cd backend
+```
+
+Create and activate a Python virtual environment:
+
+```bash
 python3 -m venv venv
 source venv/bin/activate
+```
+
+Install the dependencies:
+
+```bash
 pip install fastapi uvicorn python-dotenv google-genai
 ```
 
