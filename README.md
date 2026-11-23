@@ -24,13 +24,11 @@ An educational and supportive mobile app prototype designed to help people affec
 
 ## Setup
 
-
 ### Frontend
 
 ```bash
 npm install
 npx expo start
-```
 
 ### Backend
 
