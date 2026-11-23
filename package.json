@@ -1,3 +1,4 @@
+
 {
   "name": "cancer-care-companion",
   "version": "1.0.0",
@@ -14,6 +15,9 @@
   "devDependencies": {
     "@types/react": "~19.3.0",
     "typescript": "~6.0.3"
+  },
+  "overrides": {
+    "minimatch": "^11.0.1"
   },
   "scripts": {
     "start": "expo start",
